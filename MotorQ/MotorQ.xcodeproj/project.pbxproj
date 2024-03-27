@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC4622102BB4268F00F0EEB5 /* MotorQApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC46220F2BB4268F00F0EEB5 /* MotorQApp.swift */; };
+		AC4622122BB4268F00F0EEB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4622112BB4268F00F0EEB5 /* ContentView.swift */; };
+		AC4622142BB4269000F0EEB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4622132BB4269000F0EEB5 /* Assets.xcassets */; };
+		AC4622172BB4269000F0EEB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4622162BB4269000F0EEB5 /* Preview Assets.xcassets */; };
+		AC4622212BB4269100F0EEB5 /* MotorQTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4622202BB4269100F0EEB5 /* MotorQTests.swift */; };
+		AC46222B2BB4269100F0EEB5 /* MotorQUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC46222A2BB4269100F0EEB5 /* MotorQUITests.swift */; };
+		AC46222D2BB4269100F0EEB5 /* MotorQUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC46222C2BB4269100F0EEB5 /* MotorQUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC46221D2BB4269100F0EEB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC4622042BB4268F00F0EEB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC46220B2BB4268F00F0EEB5;
+			remoteInfo = MotorQ;
+		};
+		AC4622272BB4269100F0EEB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC4622042BB4268F00F0EEB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC46220B2BB4268F00F0EEB5;
+			remoteInfo = MotorQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC46220C2BB4268F00F0EEB5 /* MotorQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotorQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC46220F2BB4268F00F0EEB5 /* MotorQApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorQApp.swift; sourceTree = "<group>"; };
+		AC4622112BB4268F00F0EEB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC4622132BB4269000F0EEB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC4622162BB4269000F0EEB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC46221C2BB4269100F0EEB5 /* MotorQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotorQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4622202BB4269100F0EEB5 /* MotorQTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorQTests.swift; sourceTree = "<group>"; };
+		AC4622262BB4269100F0EEB5 /* MotorQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotorQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC46222A2BB4269100F0EEB5 /* MotorQUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorQUITests.swift; sourceTree = "<group>"; };
+		AC46222C2BB4269100F0EEB5 /* MotorQUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorQUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC4622092BB4268F00F0EEB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4622192BB4269100F0EEB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4622232BB4269100F0EEB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC4622032BB4268F00F0EEB5 = {
+			isa = PBXGroup;
+			children = (
+				AC46220E2BB4268F00F0EEB5 /* MotorQ */,
+				AC46221F2BB4269100F0EEB5 /* MotorQTests */,
+				AC4622292BB4269100F0EEB5 /* MotorQUITests */,
+				AC46220D2BB4268F00F0EEB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC46220D2BB4268F00F0EEB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC46220C2BB4268F00F0EEB5 /* MotorQ.app */,
+				AC46221C2BB4269100F0EEB5 /* MotorQTests.xctest */,
+				AC4622262BB4269100F0EEB5 /* MotorQUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC46220E2BB4268F00F0EEB5 /* MotorQ */ = {
+			isa = PBXGroup;
+			children = (
+				AC46220F2BB4268F00F0EEB5 /* MotorQApp.swift */,
+				AC4622112BB4268F00F0EEB5 /* ContentView.swift */,
+				AC4622132BB4269000F0EEB5 /* Assets.xcassets */,
+				AC4622152BB4269000F0EEB5 /* Preview Content */,
+			);
+			path = MotorQ;
+			sourceTree = "<group>";
+		};
+		AC4622152BB4269000F0EEB5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC4622162BB4269000F0EEB5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC46221F2BB4269100F0EEB5 /* MotorQTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4622202BB4269100F0EEB5 /* MotorQTests.swift */,
+			);
+			path = MotorQTests;
+			sourceTree = "<group>";
+		};
+		AC4622292BB4269100F0EEB5 /* MotorQUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC46222A2BB4269100F0EEB5 /* MotorQUITests.swift */,
+				AC46222C2BB4269100F0EEB5 /* MotorQUITestsLaunchTests.swift */,
+			);
+			path = MotorQUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC46220B2BB4268F00F0EEB5 /* MotorQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4622302BB4269100F0EEB5 /* Build configuration list for PBXNativeTarget "MotorQ" */;
+			buildPhases = (
+				AC4622082BB4268F00F0EEB5 /* Sources */,
+				AC4622092BB4268F00F0EEB5 /* Frameworks */,
+				AC46220A2BB4268F00F0EEB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotorQ;
+			productName = MotorQ;
+			productReference = AC46220C2BB4268F00F0EEB5 /* MotorQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC46221B2BB4269100F0EEB5 /* MotorQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4622332BB4269100F0EEB5 /* Build configuration list for PBXNativeTarget "MotorQTests" */;
+			buildPhases = (
+				AC4622182BB4269100F0EEB5 /* Sources */,
+				AC4622192BB4269100F0EEB5 /* Frameworks */,
+				AC46221A2BB4269100F0EEB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC46221E2BB4269100F0EEB5 /* PBXTargetDependency */,
+			);
+			name = MotorQTests;
+			productName = MotorQTests;
+			productReference = AC46221C2BB4269100F0EEB5 /* MotorQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC4622252BB4269100F0EEB5 /* MotorQUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4622362BB4269100F0EEB5 /* Build configuration list for PBXNativeTarget "MotorQUITests" */;
+			buildPhases = (
+				AC4622222BB4269100F0EEB5 /* Sources */,
+				AC4622232BB4269100F0EEB5 /* Frameworks */,
+				AC4622242BB4269100F0EEB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4622282BB4269100F0EEB5 /* PBXTargetDependency */,
+			);
+			name = MotorQUITests;
+			productName = MotorQUITests;
+			productReference = AC4622262BB4269100F0EEB5 /* MotorQUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC4622042BB4268F00F0EEB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AC46220B2BB4268F00F0EEB5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					AC46221B2BB4269100F0EEB5 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AC46220B2BB4268F00F0EEB5;
+					};
+					AC4622252BB4269100F0EEB5 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AC46220B2BB4268F00F0EEB5;
+					};
+				};
+			};
+			buildConfigurationList = AC4622072BB4268F00F0EEB5 /* Build configuration list for PBXProject "MotorQ" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC4622032BB4268F00F0EEB5;
+			productRefGroup = AC46220D2BB4268F00F0EEB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC46220B2BB4268F00F0EEB5 /* MotorQ */,
+				AC46221B2BB4269100F0EEB5 /* MotorQTests */,
+				AC4622252BB4269100F0EEB5 /* MotorQUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC46220A2BB4268F00F0EEB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4622172BB4269000F0EEB5 /* Preview Assets.xcassets in Resources */,
+				AC4622142BB4269000F0EEB5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC46221A2BB4269100F0EEB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4622242BB4269100F0EEB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC4622082BB4268F00F0EEB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4622122BB4268F00F0EEB5 /* ContentView.swift in Sources */,
+				AC4622102BB4268F00F0EEB5 /* MotorQApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4622182BB4269100F0EEB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4622212BB4269100F0EEB5 /* MotorQTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4622222BB4269100F0EEB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC46222D2BB4269100F0EEB5 /* MotorQUITestsLaunchTests.swift in Sources */,
+				AC46222B2BB4269100F0EEB5 /* MotorQUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC46221E2BB4269100F0EEB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC46220B2BB4268F00F0EEB5 /* MotorQ */;
+			targetProxy = AC46221D2BB4269100F0EEB5 /* PBXContainerItemProxy */;
+		};
+		AC4622282BB4269100F0EEB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC46220B2BB4268F00F0EEB5 /* MotorQ */;
+			targetProxy = AC4622272BB4269100F0EEB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC46222E2BB4269100F0EEB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC46222F2BB4269100F0EEB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC4622312BB4269100F0EEB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MotorQ/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrew.MotorQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC4622322BB4269100F0EEB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MotorQ/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrew.MotorQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC4622342BB4269100F0EEB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrew.MotorQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotorQ.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MotorQ";
+			};
+			name = Debug;
+		};
+		AC4622352BB4269100F0EEB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrew.MotorQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotorQ.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MotorQ";
+			};
+			name = Release;
+		};
+		AC4622372BB4269100F0EEB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrew.MotorQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MotorQ;
+			};
+			name = Debug;
+		};
+		AC4622382BB4269100F0EEB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrew.MotorQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MotorQ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC4622072BB4268F00F0EEB5 /* Build configuration list for PBXProject "MotorQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC46222E2BB4269100F0EEB5 /* Debug */,
+				AC46222F2BB4269100F0EEB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4622302BB4269100F0EEB5 /* Build configuration list for PBXNativeTarget "MotorQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4622312BB4269100F0EEB5 /* Debug */,
+				AC4622322BB4269100F0EEB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4622332BB4269100F0EEB5 /* Build configuration list for PBXNativeTarget "MotorQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4622342BB4269100F0EEB5 /* Debug */,
+				AC4622352BB4269100F0EEB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4622362BB4269100F0EEB5 /* Build configuration list for PBXNativeTarget "MotorQUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4622372BB4269100F0EEB5 /* Debug */,
+				AC4622382BB4269100F0EEB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC4622042BB4268F00F0EEB5 /* Project object */;
+}
