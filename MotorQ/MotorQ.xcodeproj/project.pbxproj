@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AA969EE2BBB0120001D8DF3 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA969ED2BBB0120001D8DF3 /* Onboarding.swift */; };
+		6AA969F02BBB0128001D8DF3 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA969EF2BBB0128001D8DF3 /* SplashScreen.swift */; };
+		6AA969F22BBB0130001D8DF3 /* BluetoothConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA969F12BBB0130001D8DF3 /* BluetoothConnect.swift */; };
 		AC4622102BB4268F00F0EEB5 /* MotorQApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC46220F2BB4268F00F0EEB5 /* MotorQApp.swift */; };
 		AC4622122BB4268F00F0EEB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4622112BB4268F00F0EEB5 /* ContentView.swift */; };
 		AC4622142BB4269000F0EEB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4622132BB4269000F0EEB5 /* Assets.xcassets */; };
@@ -41,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6AA969ED2BBB0120001D8DF3 /* Onboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		6AA969EF2BBB0128001D8DF3 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		6AA969F12BBB0130001D8DF3 /* BluetoothConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothConnect.swift; sourceTree = "<group>"; };
 		AC46220C2BB4268F00F0EEB5 /* MotorQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotorQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC46220F2BB4268F00F0EEB5 /* MotorQApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorQApp.swift; sourceTree = "<group>"; };
 		AC4622112BB4268F00F0EEB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -146,7 +152,10 @@
 		ACB0F5212BBA83E400E03581 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6AA969ED2BBB0120001D8DF3 /* Onboarding.swift */,
+				6AA969EF2BBB0128001D8DF3 /* SplashScreen.swift */,
 				ACB0F5252BBA84F100E03581 /* HomeView.swift */,
+				6AA969F12BBB0130001D8DF3 /* BluetoothConnect.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -296,9 +305,12 @@
 			files = (
 				ACB0F52A2BBA89E900E03581 /* BluetoohConnectComponent.swift in Sources */,
 				ACB0F52C2BBA973400E03581 /* ProgressBarComponent.swift in Sources */,
+				6AA969EE2BBB0120001D8DF3 /* Onboarding.swift in Sources */,
 				ACB0F5242BBA840300E03581 /* ProfileComponent.swift in Sources */,
 				ACB0F5302BBAC00F00E03581 /* AddServiceComponent.swift in Sources */,
+				6AA969F22BBB0130001D8DF3 /* BluetoothConnect.swift in Sources */,
 				ACB0F5262BBA84F100E03581 /* HomeView.swift in Sources */,
+				6AA969F02BBB0128001D8DF3 /* SplashScreen.swift in Sources */,
 				ACB0F5282BBA868A00E03581 /* MotorAnimationComponent.swift in Sources */,
 				AC4622122BB4268F00F0EEB5 /* ContentView.swift in Sources */,
 				ACB0F52E2BBAB84E00E03581 /* ServiceCheckCardComponent.swift in Sources */,
