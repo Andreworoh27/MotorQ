@@ -1,5 +1,5 @@
 //
-//  InputDataView.swift
+//  InputDataAfterView.swift
 //  MotorQ
 //
 //  Created by Christian Aldrich Darrien on 01/04/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct InputDataView: View {
+struct InputDataAfterView: View {
     var body: some View {
         VStack(alignment: .center, spacing: 100){
             
@@ -26,12 +26,10 @@ struct InputDataView: View {
             
             VStack(spacing: 50.0){
                 
-
-                
                 
                 ZStack{
 
-                    TextField("Not Set", text: .constant(""))
+                    TextField("Not Set", text: .constant("1000 km"))
                         .padding(.vertical, 15)
                         .padding(.horizontal, 8)
                         .multilineTextAlignment(.center)
@@ -55,7 +53,7 @@ struct InputDataView: View {
                 
                 ZStack{
 
-                    TextField("Not Set", text: .constant(""))
+                    TextField("Not Set", text: .constant("09/17/2021"))
                         .padding(.vertical, 15)
                         .padding(.horizontal, 8)
                         .multilineTextAlignment(.center)
@@ -63,6 +61,7 @@ struct InputDataView: View {
                             RoundedRectangle(cornerRadius: 16)
                                 .stroke(Color.black, lineWidth: 1)
                         )
+                        .bold()
     
                     Text("Last Service Date")
                         .multilineTextAlignment(.center)
@@ -77,7 +76,7 @@ struct InputDataView: View {
                 
                 ZStack{
 
-                    TextField("Not Set", text: .constant(""))
+                    TextField("Not Set", text: .constant("Yamaha"))
                         .padding(.vertical, 15)
                         .padding(.horizontal, 8)
                         .multilineTextAlignment(.center)
@@ -85,6 +84,7 @@ struct InputDataView: View {
                             RoundedRectangle(cornerRadius: 16)
                                 .stroke(Color.black, lineWidth: 1)
                         )
+                        .bold()
     
                     Text("Motorbike's Brand")
                         .multilineTextAlignment(.center)
@@ -99,7 +99,7 @@ struct InputDataView: View {
                 
                 ZStack{
 
-                    TextField("Not Set", text: .constant(""))
+                    TextField("Not Set", text: .constant("150cc"))
                         .padding(.vertical, 15)
                         .padding(.horizontal, 8)
                         .multilineTextAlignment(.center)
@@ -107,6 +107,7 @@ struct InputDataView: View {
                             RoundedRectangle(cornerRadius: 16)
                                 .stroke(Color.black, lineWidth: 1)
                         )
+                        .bold()
     
                     Text("Motorbike Capacity")
                         .multilineTextAlignment(.center)
@@ -139,5 +140,5 @@ struct InputDataView: View {
 }
 
 #Preview {
-    InputDataView()
+    InputDataAfterView()
 }
