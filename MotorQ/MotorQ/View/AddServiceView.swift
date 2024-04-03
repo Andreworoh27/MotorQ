@@ -275,14 +275,7 @@ struct AddServiceView: View {
             }
             
         }
-        
-        
-        
-        
-        
     }
-    
-    
 }
 
 #Preview {

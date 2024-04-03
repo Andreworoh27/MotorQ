@@ -12,7 +12,8 @@ struct MotorQApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView(motorData: motorData)
-            HomeView(motorData: motorData)
+//            HomeView(motorData: motorData)
+            SplashScreen()
         }
     }
 }
