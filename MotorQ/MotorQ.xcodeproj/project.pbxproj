@@ -21,7 +21,6 @@
 		ACB0F52C2BBA973400E03581 /* ProgressBarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0F52B2BBA973400E03581 /* ProgressBarComponent.swift */; };
 		ACB0F52E2BBAB84E00E03581 /* ServiceCheckCardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0F52D2BBAB84E00E03581 /* ServiceCheckCardComponent.swift */; };
 		ACB0F5302BBAC00F00E03581 /* AddServiceComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0F52F2BBAC00F00E03581 /* AddServiceComponent.swift */; };
-		BA4ABEE52BBB0504001A0996 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4ABEE42BBB0504001A0996 /* Onboarding.swift */; };
 		BA4ABEE72BBB0509001A0996 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4ABEE62BBB0509001A0996 /* SplashScreen.swift */; };
 		BA4ABEE92BBB0559001A0996 /* InputDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4ABEE82BBB0559001A0996 /* InputDataView.swift */; };
 		BAC27BD52BBB117600BCCE05 /* InputDataAfterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC27BD42BBB117600BCCE05 /* InputDataAfterView.swift */; };
@@ -64,7 +63,6 @@
 		ACB0F52B2BBA973400E03581 /* ProgressBarComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarComponent.swift; sourceTree = "<group>"; };
 		ACB0F52D2BBAB84E00E03581 /* ServiceCheckCardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCheckCardComponent.swift; sourceTree = "<group>"; };
 		ACB0F52F2BBAC00F00E03581 /* AddServiceComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServiceComponent.swift; sourceTree = "<group>"; };
-		BA4ABEE42BBB0504001A0996 /* Onboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		BA4ABEE62BBB0509001A0996 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		BA4ABEE82BBB0559001A0996 /* InputDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDataView.swift; sourceTree = "<group>"; };
 		BAC27BD42BBB117600BCCE05 /* InputDataAfterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDataAfterView.swift; sourceTree = "<group>"; };
@@ -159,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				BA4ABEE62BBB0509001A0996 /* SplashScreen.swift */,
-				BA4ABEE42BBB0504001A0996 /* Onboarding.swift */,
 				ACB0F5252BBA84F100E03581 /* HomeView.swift */,
 				BA4ABEE82BBB0559001A0996 /* InputDataView.swift */,
 				BAC27BD42BBB117600BCCE05 /* InputDataAfterView.swift */,
@@ -314,7 +311,6 @@
 			files = (
 				ACB0F52A2BBA89E900E03581 /* BluetoohConnectComponent.swift in Sources */,
 				ACB0F52C2BBA973400E03581 /* ProgressBarComponent.swift in Sources */,
-				BA4ABEE52BBB0504001A0996 /* Onboarding.swift in Sources */,
 				BAC27BD72BBB159C00BCCE05 /* InputDataPickerView.swift in Sources */,
 				ACB0F5242BBA840300E03581 /* ProfileComponent.swift in Sources */,
 				ACB0F5302BBAC00F00E03581 /* AddServiceComponent.swift in Sources */,
