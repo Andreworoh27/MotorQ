@@ -16,6 +16,8 @@
 		AC46222D2BB4269100F0EEB5 /* MotorQUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC46222C2BB4269100F0EEB5 /* MotorQUITestsLaunchTests.swift */; };
 		AC90A8942BBDB7BB005F515D /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90A8932BBDB7BB005F515D /* AboutView.swift */; };
 		AC90A8962BBDBBF6005F515D /* AboutCardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90A8952BBDBBF6005F515D /* AboutCardComponent.swift */; };
+		AC90A8982BBDD217005F515D /* AlertSucessComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90A8972BBDD217005F515D /* AlertSucessComponent.swift */; };
+		AC90A89A2BBDD24E005F515D /* AddServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC90A8992BBDD24E005F515D /* AddServiceView.swift */; };
 		ACA6D2652BBD5827003126C6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA6D2642BBD5827003126C6 /* Colors.swift */; };
 		ACA6D2692BBD92CF003126C6 /* MotorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA6D2682BBD92CF003126C6 /* MotorModel.swift */; };
 		ACA6D26B2BBD92DC003126C6 /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA6D26A2BBD92DC003126C6 /* ServiceModel.swift */; };
@@ -36,9 +38,7 @@
 		BA7457C12BBD6C09006FA757 /* SetUpLaterComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7457C02BBD6C09006FA757 /* SetUpLaterComponent.swift */; };
 		BA7457C32BBD6CDB006FA757 /* Bluetooth02ConnectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7457C22BBD6CDB006FA757 /* Bluetooth02ConnectedView.swift */; };
 		BA7457C52BBD7765006FA757 /* SetUpBluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7457C42BBD7765006FA757 /* SetUpBluetoothView.swift */; };
-		BA7457D32BBDBBB1006FA757 /* AddServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7457D22BBDBBB1006FA757 /* AddServiceView.swift */; };
 		BA7457D52BBDC00F006FA757 /* AddServiceUrgentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7457D42BBDC00F006FA757 /* AddServiceUrgentView.swift */; };
-		BA7457D72BBDC63D006FA757 /* AlertSuccessComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7457D62BBDC63D006FA757 /* AlertSuccessComponent.swift */; };
 		BAC27BD52BBB117600BCCE05 /* InputDataAfterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC27BD42BBB117600BCCE05 /* InputDataAfterView.swift */; };
 		BAC27BD72BBB159C00BCCE05 /* InputDataPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC27BD62BBB159C00BCCE05 /* InputDataPickerView.swift */; };
 		BAC27BD92BBB16D000BCCE05 /* PickerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC27BD82BBB16D000BCCE05 /* PickerComponent.swift */; };
@@ -74,6 +74,8 @@
 		AC46222C2BB4269100F0EEB5 /* MotorQUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorQUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AC90A8932BBDB7BB005F515D /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		AC90A8952BBDBBF6005F515D /* AboutCardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCardComponent.swift; sourceTree = "<group>"; };
+		AC90A8972BBDD217005F515D /* AlertSucessComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertSucessComponent.swift; sourceTree = "<group>"; };
+		AC90A8992BBDD24E005F515D /* AddServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServiceView.swift; sourceTree = "<group>"; };
 		ACA6D2642BBD5827003126C6 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		ACA6D2682BBD92CF003126C6 /* MotorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorModel.swift; sourceTree = "<group>"; };
 		ACA6D26A2BBD92DC003126C6 /* ServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
@@ -94,9 +96,7 @@
 		BA7457C02BBD6C09006FA757 /* SetUpLaterComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpLaterComponent.swift; sourceTree = "<group>"; };
 		BA7457C22BBD6CDB006FA757 /* Bluetooth02ConnectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth02ConnectedView.swift; sourceTree = "<group>"; };
 		BA7457C42BBD7765006FA757 /* SetUpBluetoothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpBluetoothView.swift; sourceTree = "<group>"; };
-		BA7457D22BBDBBB1006FA757 /* AddServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServiceView.swift; sourceTree = "<group>"; };
 		BA7457D42BBDC00F006FA757 /* AddServiceUrgentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServiceUrgentView.swift; sourceTree = "<group>"; };
-		BA7457D62BBDC63D006FA757 /* AlertSuccessComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertSuccessComponent.swift; sourceTree = "<group>"; };
 		BAC27BD42BBB117600BCCE05 /* InputDataAfterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDataAfterView.swift; sourceTree = "<group>"; };
 		BAC27BD62BBB159C00BCCE05 /* InputDataPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDataPickerView.swift; sourceTree = "<group>"; };
 		BAC27BD82BBB16D000BCCE05 /* PickerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerComponent.swift; sourceTree = "<group>"; };
@@ -219,7 +219,6 @@
 			children = (
 				BA4ABEE62BBB0509001A0996 /* SplashScreen.swift */,
 				ACB0F5252BBA84F100E03581 /* HomeView.swift */,
-				BA7457D22BBDBBB1006FA757 /* AddServiceView.swift */,
 				BA4ABEE82BBB0559001A0996 /* InputDataView.swift */,
 				BAC27BD42BBB117600BCCE05 /* InputDataAfterView.swift */,
 				BAC27BD62BBB159C00BCCE05 /* InputDataPickerView.swift */,
@@ -229,6 +228,7 @@
 				BA7457C22BBD6CDB006FA757 /* Bluetooth02ConnectedView.swift */,
 				BA7457D42BBDC00F006FA757 /* AddServiceUrgentView.swift */,
 				AC90A8932BBDB7BB005F515D /* AboutView.swift */,
+				AC90A8992BBDD24E005F515D /* AddServiceView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -245,8 +245,8 @@
 				BAC27BD82BBB16D000BCCE05 /* PickerComponent.swift */,
 				BA7457C02BBD6C09006FA757 /* SetUpLaterComponent.swift */,
 				ACA6D2712BBDA5D9003126C6 /* HistoryCardComponent.swift */,
-				BA7457D62BBDC63D006FA757 /* AlertSuccessComponent.swift */,
 				AC90A8952BBDBBF6005F515D /* AboutCardComponent.swift */,
+				AC90A8972BBDD217005F515D /* AlertSucessComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -396,6 +396,7 @@
 				BA7457D52BBDC00F006FA757 /* AddServiceUrgentView.swift in Sources */,
 				ACB0F5242BBA840300E03581 /* ProfileComponent.swift in Sources */,
 				ACB0F5302BBAC00F00E03581 /* AddServiceComponent.swift in Sources */,
+				AC90A89A2BBDD24E005F515D /* AddServiceView.swift in Sources */,
 				ACB0F5262BBA84F100E03581 /* HomeView.swift in Sources */,
 				BAC27BD92BBB16D000BCCE05 /* PickerComponent.swift in Sources */,
 				ACA6D2652BBD5827003126C6 /* Colors.swift in Sources */,
@@ -404,6 +405,7 @@
 				AC4622122BB4268F00F0EEB5 /* ContentView.swift in Sources */,
 				AC90A8942BBDB7BB005F515D /* AboutView.swift in Sources */,
 				ACB0F52E2BBAB84E00E03581 /* ServiceCheckCardComponent.swift in Sources */,
+				AC90A8982BBDD217005F515D /* AlertSucessComponent.swift in Sources */,
 				AC90A8962BBDBBF6005F515D /* AboutCardComponent.swift in Sources */,
 				AC4622102BB4268F00F0EEB5 /* MotorQApp.swift in Sources */,
 				BAC27BD52BBB117600BCCE05 /* InputDataAfterView.swift in Sources */,
