@@ -40,7 +40,6 @@
 		BA7457C52BBD7765006FA757 /* SetUpBluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7457C42BBD7765006FA757 /* SetUpBluetoothView.swift */; };
 		BA7457D52BBDC00F006FA757 /* AddServiceUrgentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7457D42BBDC00F006FA757 /* AddServiceUrgentView.swift */; };
 		BAC27BD52BBB117600BCCE05 /* InputDataAfterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC27BD42BBB117600BCCE05 /* InputDataAfterView.swift */; };
-		BAC27BD72BBB159C00BCCE05 /* InputDataPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC27BD62BBB159C00BCCE05 /* InputDataPickerView.swift */; };
 		BAC27BD92BBB16D000BCCE05 /* PickerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC27BD82BBB16D000BCCE05 /* PickerComponent.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,7 +97,6 @@
 		BA7457C42BBD7765006FA757 /* SetUpBluetoothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpBluetoothView.swift; sourceTree = "<group>"; };
 		BA7457D42BBDC00F006FA757 /* AddServiceUrgentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServiceUrgentView.swift; sourceTree = "<group>"; };
 		BAC27BD42BBB117600BCCE05 /* InputDataAfterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDataAfterView.swift; sourceTree = "<group>"; };
-		BAC27BD62BBB159C00BCCE05 /* InputDataPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDataPickerView.swift; sourceTree = "<group>"; };
 		BAC27BD82BBB16D000BCCE05 /* PickerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -221,7 +219,6 @@
 				ACB0F5252BBA84F100E03581 /* HomeView.swift */,
 				BA4ABEE82BBB0559001A0996 /* InputDataView.swift */,
 				BAC27BD42BBB117600BCCE05 /* InputDataAfterView.swift */,
-				BAC27BD62BBB159C00BCCE05 /* InputDataPickerView.swift */,
 				BA7457C42BBD7765006FA757 /* SetUpBluetoothView.swift */,
 				BA7457BA2BBD6011006FA757 /* Bluetooth01View.swift */,
 				BA7457BC2BBD6AD7006FA757 /* Bluetooth02View.swift */,
@@ -392,7 +389,6 @@
 				ACA6D26B2BBD92DC003126C6 /* ServiceModel.swift in Sources */,
 				BA7457BB2BBD6011006FA757 /* Bluetooth01View.swift in Sources */,
 				BA7457C32BBD6CDB006FA757 /* Bluetooth02ConnectedView.swift in Sources */,
-				BAC27BD72BBB159C00BCCE05 /* InputDataPickerView.swift in Sources */,
 				BA7457D52BBDC00F006FA757 /* AddServiceUrgentView.swift in Sources */,
 				ACB0F5242BBA840300E03581 /* ProfileComponent.swift in Sources */,
 				ACB0F5302BBAC00F00E03581 /* AddServiceComponent.swift in Sources */,
