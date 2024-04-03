@@ -11,18 +11,19 @@ struct AboutView: View {
     var motorData : Motor
     var body: some View {
         ScrollView{
-            VStack{
-                HStack{
-                    Spacer()
-                    Text("Motorbike Profile")
-                        .font(.system(size: 16))
-                        .bold()
-                    Spacer()
-                    Image(systemName: "pencil")
-                        .font(.system(size: 17))
-                }
-                .padding(20)
-            }
+            Spacer()
+//            VStack{
+//                HStack{
+//                    Spacer()
+//                    Text("Motorbike Profile")
+//                        .font(.system(size: 16))
+//                        .bold()
+//                    Spacer()
+//                    Image(systemName: "pencil")
+//                        .font(.system(size: 17))
+//                }
+//                .padding(20)
+//            }
             Image("aboutViewAvatar")
                 .resizable()
                 .frame(width: 324,height: 289)
