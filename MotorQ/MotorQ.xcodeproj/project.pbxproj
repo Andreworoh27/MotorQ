@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< Updated upstream
 		6AB67AD92BBD480D00F4E68C /* AboutNavbarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB67AD82BBD480D00F4E68C /* AboutNavbarComponent.swift */; };
 		6AB67ADB2BBD49D500F4E68C /* AboutCardsComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB67ADA2BBD49D500F4E68C /* AboutCardsComponent.swift */; };
+=======
+		6AB67AD52BBD459900F4E68C /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB67AD42BBD459900F4E68C /* About.swift */; };
+		6AB67AD72BBD45FD00F4E68C /* AboutNavComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB67AD62BBD45FD00F4E68C /* AboutNavComponent.swift */; };
+>>>>>>> Stashed changes
 		AC4622102BB4268F00F0EEB5 /* MotorQApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC46220F2BB4268F00F0EEB5 /* MotorQApp.swift */; };
 		AC4622122BB4268F00F0EEB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4622112BB4268F00F0EEB5 /* ContentView.swift */; };
 		AC4622142BB4269000F0EEB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4622132BB4269000F0EEB5 /* Assets.xcassets */; };
@@ -49,8 +54,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< Updated upstream
 		6AB67AD82BBD480D00F4E68C /* AboutNavbarComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutNavbarComponent.swift; sourceTree = "<group>"; };
 		6AB67ADA2BBD49D500F4E68C /* AboutCardsComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCardsComponent.swift; sourceTree = "<group>"; };
+=======
+		6AB67AD42BBD459900F4E68C /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		6AB67AD62BBD45FD00F4E68C /* AboutNavComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutNavComponent.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		AC46220C2BB4268F00F0EEB5 /* MotorQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotorQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC46220F2BB4268F00F0EEB5 /* MotorQApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorQApp.swift; sourceTree = "<group>"; };
 		AC4622112BB4268F00F0EEB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -168,6 +178,7 @@
 				BA4ABEE82BBB0559001A0996 /* InputDataView.swift */,
 				BAC27BD42BBB117600BCCE05 /* InputDataAfterView.swift */,
 				BAC27BD62BBB159C00BCCE05 /* InputDataPickerView.swift */,
+				6AB67AD42BBD459900F4E68C /* About.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -184,6 +195,7 @@
 				ACB0F52D2BBAB84E00E03581 /* ServiceCheckCardComponent.swift */,
 				ACB0F52F2BBAC00F00E03581 /* AddServiceComponent.swift */,
 				BAC27BD82BBB16D000BCCE05 /* PickerComponent.swift */,
+				6AB67AD62BBD45FD00F4E68C /* AboutNavComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -319,6 +331,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACB0F52A2BBA89E900E03581 /* BluetoohConnectComponent.swift in Sources */,
+				6AB67AD52BBD459900F4E68C /* About.swift in Sources */,
+				6AB67AD72BBD45FD00F4E68C /* AboutNavComponent.swift in Sources */,
 				ACB0F52C2BBA973400E03581 /* ProgressBarComponent.swift in Sources */,
 				BA4ABEE52BBB0504001A0996 /* Onboarding.swift in Sources */,
 				BAC27BD72BBB159C00BCCE05 /* InputDataPickerView.swift in Sources */,
