@@ -14,6 +14,7 @@
 		AC4622212BB4269100F0EEB5 /* MotorQTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4622202BB4269100F0EEB5 /* MotorQTests.swift */; };
 		AC46222B2BB4269100F0EEB5 /* MotorQUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC46222A2BB4269100F0EEB5 /* MotorQUITests.swift */; };
 		AC46222D2BB4269100F0EEB5 /* MotorQUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC46222C2BB4269100F0EEB5 /* MotorQUITestsLaunchTests.swift */; };
+		ACA6D2652BBD5827003126C6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA6D2642BBD5827003126C6 /* Colors.swift */; };
 		ACB0F5242BBA840300E03581 /* ProfileComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0F5232BBA840300E03581 /* ProfileComponent.swift */; };
 		ACB0F5262BBA84F100E03581 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0F5252BBA84F100E03581 /* HomeView.swift */; };
 		ACB0F5282BBA868A00E03581 /* MotorAnimationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0F5272BBA868A00E03581 /* MotorAnimationComponent.swift */; };
@@ -56,11 +57,12 @@
 		AC4622262BB4269100F0EEB5 /* MotorQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotorQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC46222A2BB4269100F0EEB5 /* MotorQUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorQUITests.swift; sourceTree = "<group>"; };
 		AC46222C2BB4269100F0EEB5 /* MotorQUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorQUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ACA6D2642BBD5827003126C6 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		ACB0F5232BBA840300E03581 /* ProfileComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileComponent.swift; sourceTree = "<group>"; };
 		ACB0F5252BBA84F100E03581 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ACB0F5272BBA868A00E03581 /* MotorAnimationComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorAnimationComponent.swift; sourceTree = "<group>"; };
 		ACB0F5292BBA89E900E03581 /* BluetoohConnectComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoohConnectComponent.swift; sourceTree = "<group>"; };
-		ACB0F52B2BBA973400E03581 /* ProgressBarComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarComponent.swift; sourceTree = "<group>"; };
+		ACB0F52B2BBA973400E03581 /* ProgressBarComponent.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarComponent.swift; sourceTree = "<group>"; tabWidth = 4; wrapsLines = 1; };
 		ACB0F52D2BBAB84E00E03581 /* ServiceCheckCardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCheckCardComponent.swift; sourceTree = "<group>"; };
 		ACB0F52F2BBAC00F00E03581 /* AddServiceComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServiceComponent.swift; sourceTree = "<group>"; };
 		BA4ABEE62BBB0509001A0996 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		AC46220E2BB4268F00F0EEB5 /* MotorQ */ = {
 			isa = PBXGroup;
 			children = (
+				ACA6D2632BBD5817003126C6 /* Utils */,
 				ACB0F5222BBA83EF00E03581 /* Components */,
 				ACB0F5212BBA83E400E03581 /* View */,
 				AC46220F2BB4268F00F0EEB5 /* MotorQApp.swift */,
@@ -151,6 +154,14 @@
 				AC46222C2BB4269100F0EEB5 /* MotorQUITestsLaunchTests.swift */,
 			);
 			path = MotorQUITests;
+			sourceTree = "<group>";
+		};
+		ACA6D2632BBD5817003126C6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ACA6D2642BBD5827003126C6 /* Colors.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		ACB0F5212BBA83E400E03581 /* View */ = {
@@ -316,6 +327,7 @@
 				ACB0F5302BBAC00F00E03581 /* AddServiceComponent.swift in Sources */,
 				ACB0F5262BBA84F100E03581 /* HomeView.swift in Sources */,
 				BAC27BD92BBB16D000BCCE05 /* PickerComponent.swift in Sources */,
+				ACA6D2652BBD5827003126C6 /* Colors.swift in Sources */,
 				BA4ABEE72BBB0509001A0996 /* SplashScreen.swift in Sources */,
 				ACB0F5282BBA868A00E03581 /* MotorAnimationComponent.swift in Sources */,
 				AC4622122BB4268F00F0EEB5 /* ContentView.swift in Sources */,

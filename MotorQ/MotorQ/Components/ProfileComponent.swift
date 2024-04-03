@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProfileComponent: View {
     var body: some View {
-        Image(systemName: "person.crop.circle.fill")
+        Image("profile")
             .resizable()
             .frame(width: 50, height: 50)
             .scaledToFit()
