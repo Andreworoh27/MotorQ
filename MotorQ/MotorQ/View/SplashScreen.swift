@@ -10,7 +10,7 @@ import SwiftUI
 struct SplashScreen: View {
     var body: some View {
         ZStack {
-            Color.orange
+            Color.primaryOrange
                 .ignoresSafeArea() // ganti warna
             Image("logo")
                 .resizable()
