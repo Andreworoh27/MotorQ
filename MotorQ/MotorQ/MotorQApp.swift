@@ -11,7 +11,8 @@ import SwiftUI
 struct MotorQApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView(motorData: motorData)
+            HomeView(motorData: motorData)
         }
     }
 }

@@ -8,17 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    var motorData : Motor
+        
+    init(motorData: Motor) {
+          self.motorData = motorData
+      }
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(motorData.name)
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(motorData: motorData)
 }

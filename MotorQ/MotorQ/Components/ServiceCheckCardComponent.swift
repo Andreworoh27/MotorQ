@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ServiceCheckCardComponent: View {
+    var motorName :String
     var body: some View {
         ZStack {
             Color.primaryOrange
@@ -15,7 +16,7 @@ struct ServiceCheckCardComponent: View {
             VStack{
                 HStack(alignment:.center){
                     VStack(alignment: .leading){
-                        Text("Have you Check Mio Mirza ?")
+                        Text("Have you Check \(motorName) ?")
                             .font(.title3)
                             .bold()
                         Spacer()
@@ -41,18 +42,9 @@ struct ServiceCheckCardComponent: View {
         .cornerRadius(10)
         }
         .scaledToFit()
-//        .overlay {
-//            Rectangle()
-//                .foregroundColor(.clear)
-//                .cornerRadius(6.91)
-//                .overlay(
-//                    RoundedRectangle(cornerRadius: 6.91)
-//                        .stroke(.black, lineWidth: 0.75)
-//                )
-//        }
     }
 }
 
 #Preview {
-    ServiceCheckCardComponent()
+    ServiceCheckCardComponent(motorName: motorData.name)
 }
