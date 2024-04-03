@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ServiceCheckCardComponent: View {
+    
+    @State private var isModalPresented = false
+    
     var motorName :String
     var body: some View {
         ZStack {
@@ -16,15 +19,20 @@ struct ServiceCheckCardComponent: View {
             VStack{
                 HStack(alignment:.center){
                     VStack(alignment: .leading){
-                        Text("Have you Check \(motorName) ?")
+                        Text("Already checked \(motorName) ?")
                             .font(.title3)
                             .bold()
                         Spacer()
-                        Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
+                        Text("Confirm your checkup status here")
                             .font(.caption)
                         Spacer()
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                            Text("Yes, I have")
+                        Button(action: {
+                            
+                            isModalPresented.toggle()
+                            
+                            
+                        }, label: {
+                            Text("Confirm")
                                 .foregroundColor(.white)
                         })
                         .frame(width: 118, height: 28)
@@ -42,6 +50,9 @@ struct ServiceCheckCardComponent: View {
         .cornerRadius(10)
         }
         .scaledToFit()
+        .fullScreenCover(isPresented: $isModalPresented) {
+                                    AddServiceView()
+                                }
     }
 }
 
