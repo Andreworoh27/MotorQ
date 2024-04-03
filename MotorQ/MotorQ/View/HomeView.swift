@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
+    var motorData : Motor
     var body: some View {
         ScrollView{
             VStack{
@@ -17,7 +18,7 @@ struct HomeView: View {
                         .frame(width: 393,height: 283)
                     VStack{
                         HStack{
-                            Text("Hi, \("Mario motoran!")")
+                            Text("Hi, \(motorData.ownerName)")
                                 .font(.title2)
                                 .bold()
                             Spacer()
@@ -32,8 +33,8 @@ struct HomeView: View {
                 }
                 
                 VStack(spacing : 16){
-                    ProgressBarComponent(currentKM: .constant(0.7))
-                    ServiceCheckCardComponent()
+                    ProgressBarComponent(currentKM: .constant(Float(motorData.currKm) / Float(motorData.endKm)))
+                    ServiceCheckCardComponent(motorName: motorData.name)
                     
                     HStack {
                         Text("History")
@@ -41,62 +42,15 @@ struct HomeView: View {
                         .bold()
                         Spacer()
                     }
-
+                    HistoryCardComponent(services: motorData.serviceHistory)
                 }
                 .padding()
-                
             }
-            
-            //            VStack(alignment: .center){
-            //                HStack{
-            //                    Text("Hi, \("Mario motoran!")")
-            //                        .font(.title2)
-            //                        .bold()
-            //                    Spacer()
-            //                    ProfileComponent()
-            //                }
-            //                .padding()
-            //
-            //                ZStack{
-            //                    VStack(alignment: .center){
-            //                        HStack{
-            //                            Spacer()
-            //                            BluetoohConnectComponent(connectionStatus: .constant(true)) //change with real connection status.
-            //                        }
-            //                        Spacer()
-            //
-            //                        MotorAnimationComponent()
-            //                    }
-            //
-            //                    .padding()
-            //                    .frame(height:288)
-            //                    .overlay {
-            //                        Rectangle()
-            //                            .foregroundColor(.clear)
-            //                            .cornerRadius(6.91)
-            //                            .overlay(
-            //                                RoundedRectangle(cornerRadius: 6.91)
-            //                                    .stroke(.black, lineWidth: 0.5)
-            //                            )
-            //                    }
-            //                }
-            //                .padding()
-            //
-            //                ProgressBarComponent(currentKM: .constant(0.95)) //calculate with current motor km divided by end km distance.
-            //                    .padding(.bottom,10)
-            //
-            //                ServiceCheckCardComponent()
-            //                    .padding(.bottom, 20)
-            //
-            //
-            //                AddServiceComponent()
-            //
-            //            }
         }
         .ignoresSafeArea()
     }
 }
 
 #Preview {
-    HomeView()
+    HomeView(motorData: motorData)
 }

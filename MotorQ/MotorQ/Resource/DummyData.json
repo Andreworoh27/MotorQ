@@ -1,0 +1,49 @@
+{
+    "name": "Alexa",
+    "ownerName": "Mario Motoran",
+    "currKm": 1200,
+    "startKm" : 0,
+    "endKm" : 3000,
+    "brand": "Honda",
+    "engineCc": 150,
+    "lastServiceDate": "2024-01-01",
+    "serviceHistory": [
+      {
+        "id" : 1,
+        "type": "Servis Kecil",
+        "parts": ["Filter Oli", "Oli mesin"],
+        "distance": 3000,
+        "price": 100,
+        "location": "Alam Sutera",
+        "notes": "Ganti Oli"
+      },
+      {
+        "id" : 2,
+        "type": "Servis Besar",
+        "parts": ["Busi", "Belt CVT","Kampas Rem"],
+        "distance": 6000,
+        "price": 300,
+        "location": "BSD",
+        "notes": "Ganti part rusak"
+      },
+      {
+        "id" : 3,
+        "type": "Servis Besar",
+        "parts": ["Busi", "Belt CVT","Kampas Rem"],
+        "distance": 6000,
+        "price": 300,
+        "location": "BSD",
+        "notes": "Ganti part rusak"
+      },
+      {
+        "id" : 4,
+        "type": "Servis Besar",
+        "parts": ["Busi", "Belt CVT","Kampas Rem"],
+        "distance": 6000,
+        "price": 300,
+        "location": "BSD",
+        "notes": "Ganti part rusak"
+      }
+    ]
+}
+

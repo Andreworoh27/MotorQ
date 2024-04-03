@@ -15,6 +15,11 @@
 		AC46222B2BB4269100F0EEB5 /* MotorQUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC46222A2BB4269100F0EEB5 /* MotorQUITests.swift */; };
 		AC46222D2BB4269100F0EEB5 /* MotorQUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC46222C2BB4269100F0EEB5 /* MotorQUITestsLaunchTests.swift */; };
 		ACA6D2652BBD5827003126C6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA6D2642BBD5827003126C6 /* Colors.swift */; };
+		ACA6D2692BBD92CF003126C6 /* MotorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA6D2682BBD92CF003126C6 /* MotorModel.swift */; };
+		ACA6D26B2BBD92DC003126C6 /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA6D26A2BBD92DC003126C6 /* ServiceModel.swift */; };
+		ACA6D26D2BBD92E4003126C6 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA6D26C2BBD92E4003126C6 /* ModelData.swift */; };
+		ACA6D2702BBD943E003126C6 /* DummyData.json in Resources */ = {isa = PBXBuildFile; fileRef = ACA6D26F2BBD943E003126C6 /* DummyData.json */; };
+		ACA6D2722BBDA5D9003126C6 /* HistoryCardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA6D2712BBDA5D9003126C6 /* HistoryCardComponent.swift */; };
 		ACB0F5242BBA840300E03581 /* ProfileComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0F5232BBA840300E03581 /* ProfileComponent.swift */; };
 		ACB0F5262BBA84F100E03581 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0F5252BBA84F100E03581 /* HomeView.swift */; };
 		ACB0F5282BBA868A00E03581 /* MotorAnimationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0F5272BBA868A00E03581 /* MotorAnimationComponent.swift */; };
@@ -63,6 +68,11 @@
 		AC46222A2BB4269100F0EEB5 /* MotorQUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorQUITests.swift; sourceTree = "<group>"; };
 		AC46222C2BB4269100F0EEB5 /* MotorQUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorQUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ACA6D2642BBD5827003126C6 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		ACA6D2682BBD92CF003126C6 /* MotorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorModel.swift; sourceTree = "<group>"; };
+		ACA6D26A2BBD92DC003126C6 /* ServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
+		ACA6D26C2BBD92E4003126C6 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		ACA6D26F2BBD943E003126C6 /* DummyData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DummyData.json; sourceTree = "<group>"; };
+		ACA6D2712BBDA5D9003126C6 /* HistoryCardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCardComponent.swift; sourceTree = "<group>"; };
 		ACB0F5232BBA840300E03581 /* ProfileComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileComponent.swift; sourceTree = "<group>"; };
 		ACB0F5252BBA84F100E03581 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ACB0F5272BBA868A00E03581 /* MotorAnimationComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorAnimationComponent.swift; sourceTree = "<group>"; };
@@ -130,6 +140,8 @@
 		AC46220E2BB4268F00F0EEB5 /* MotorQ */ = {
 			isa = PBXGroup;
 			children = (
+				ACA6D26E2BBD9409003126C6 /* Resource */,
+				ACA6D2672BBD92C4003126C6 /* Models */,
 				ACA6D2632BBD5817003126C6 /* Utils */,
 				ACB0F5222BBA83EF00E03581 /* Components */,
 				ACB0F5212BBA83E400E03581 /* View */,
@@ -174,6 +186,24 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		ACA6D2672BBD92C4003126C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ACA6D2682BBD92CF003126C6 /* MotorModel.swift */,
+				ACA6D26A2BBD92DC003126C6 /* ServiceModel.swift */,
+				ACA6D26C2BBD92E4003126C6 /* ModelData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ACA6D26E2BBD9409003126C6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				ACA6D26F2BBD943E003126C6 /* DummyData.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		ACB0F5212BBA83E400E03581 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +231,7 @@
 				ACB0F52F2BBAC00F00E03581 /* AddServiceComponent.swift */,
 				BAC27BD82BBB16D000BCCE05 /* PickerComponent.swift */,
 				BA7457C02BBD6C09006FA757 /* SetUpLaterComponent.swift */,
+				ACA6D2712BBDA5D9003126C6 /* HistoryCardComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -309,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACA6D2702BBD943E003126C6 /* DummyData.json in Resources */,
 				AC4622172BB4269000F0EEB5 /* Preview Assets.xcassets in Resources */,
 				AC4622142BB4269000F0EEB5 /* Assets.xcassets in Resources */,
 			);
@@ -336,9 +368,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA7457C12BBD6C09006FA757 /* SetUpLaterComponent.swift in Sources */,
+				ACA6D2692BBD92CF003126C6 /* MotorModel.swift in Sources */,
 				BA7457C52BBD7765006FA757 /* SetUpBluetoothView.swift in Sources */,
 				ACB0F52A2BBA89E900E03581 /* BluetoohConnectComponent.swift in Sources */,
+				ACA6D2722BBDA5D9003126C6 /* HistoryCardComponent.swift in Sources */,
+				ACA6D26D2BBD92E4003126C6 /* ModelData.swift in Sources */,
 				ACB0F52C2BBA973400E03581 /* ProgressBarComponent.swift in Sources */,
+				ACA6D26B2BBD92DC003126C6 /* ServiceModel.swift in Sources */,
 				BA7457BB2BBD6011006FA757 /* Bluetooth01View.swift in Sources */,
 				BA7457C32BBD6CDB006FA757 /* Bluetooth02ConnectedView.swift in Sources */,
 				BAC27BD72BBB159C00BCCE05 /* InputDataPickerView.swift in Sources */,
