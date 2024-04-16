@@ -64,7 +64,7 @@ struct HomeView: View {
                             //Masukin Action
                             isModalPresented.toggle()
                         }) {
-                            Image("addService")
+                            Image("addServiceUrgent")
                                 .resizable()
                                 .frame(width: 66, height: 66)
                                 .foregroundColor(.blue)
